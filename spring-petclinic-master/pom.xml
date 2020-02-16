@@ -10,8 +10,8 @@
 	
 <distributionManagement>
   <repository>
-    <id>devops</id>
-    <url>http://localhost:8081/nexus/content/repositories/devops</url>
+    <id>srinivas</id>
+    <url>http://localhost:8081/nexus/content/repositories/srinivas</url>
   </repository>
 </distributionManagement>
 
