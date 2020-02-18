@@ -10,8 +10,8 @@
 	
 <distributionManagement>
   <repository>
-    <id>nexus3</id>
-    <url>http://localhost:8081/repository/nexus-petclinic/</url>
+    <id>springpetclinic</id>
+    <url>http://localhost:8081/repository/springpetclinic/</url>
   </repository>
 </distributionManagement>
 
