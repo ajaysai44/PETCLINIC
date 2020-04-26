@@ -448,6 +448,7 @@
 <server>apache-tomcat</server> 
     <username>admin</username>
     <password>admin</password>
+      <path>/petclinic</path>
 </configuration> 
 </plugin>
                     <plugin>
