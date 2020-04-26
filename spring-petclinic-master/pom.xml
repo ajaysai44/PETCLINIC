@@ -5,7 +5,7 @@
     <groupId>org.springframework.samples</groupId>
     <artifactId>spring-petclinic</artifactId>
     <version>4.2</version>
-    <name>spring-petclinic-4.2</name>
+    <name>petclinic</name>
     <packaging>war</packaging>
 	<distributionManagement>
   <repository>
@@ -320,7 +320,7 @@
                 <artifactId>maven-war-plugin</artifactId>
                 <version>2.3</version>
                 <configuration>
-                    <warName>spring-petclinic-4.2</warName>
+                    <warName>petclinic</warName>
                 </configuration>
             </plugin>
             <plugin>
@@ -446,7 +446,7 @@
 <server>apache-tomcat</server> 
 <username>admin</username>
 <password>admin</password>
-<path>/my-webapp</path> 
+<path>petclinic</path> 
 </configuration> 
 </plugin>
                     <plugin>
@@ -474,5 +474,5 @@
         </profile>
    </profiles>
 
-    <url>demopetclinic</url>
+   
 </project>
