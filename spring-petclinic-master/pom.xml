@@ -368,9 +368,8 @@
 				<url>http://localhost:8085/manager/text</url>
                     <server>apache-tomcat</server>
                       <username>admin</username>
-    <password>admin</password>
-                   
-                    <path>/petclinic</path>
+                       <password>admin</password>
+                         <path>/petclinic</path>
                 </configuration>
             </plugin>
             <plugin>
@@ -448,8 +447,7 @@
 <url>http://localhost:8085/manager/text</url> 
 <server>apache-tomcat</server> 
     <username>admin</username>
-    <password>admin</password>
-<path>/my-webapp</path> 
+    <password>admin</password
 </configuration> 
 </plugin>
                     <plugin>
