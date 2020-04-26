@@ -5,13 +5,12 @@
     <groupId>org.springframework.samples</groupId>
     <artifactId>spring-petclinic</artifactId>
     <version>4.2</version>
-  <name>spring-petclinic-4.2</name>
+    <name>spring-petclinic-4.2</name>
     <packaging>war</packaging>
-	
-<distributionManagement>
+	<distributionManagement>
   <repository>
-    <id>springpetclinic</id>
-    <url>http://localhost:8081/repository/springpetclinic/</url>
+    <id>devops</id>
+    <url>http://localhost:8081/nexus/content/repositories/devops</url>
   </repository>
 </distributionManagement>
 
@@ -367,9 +366,8 @@
                 <configuration>
 				<url>http://localhost:8085/manager/text</url>
                     <server>apache-tomcat</server>
-                      <username>admin</username>
-                       <password>admin</password>
-                         <path>/petclinic</path>
+                   
+                    <path>/petclinic</path>
                 </configuration>
             </plugin>
             <plugin>
@@ -446,9 +444,9 @@
 <configuration> 
 <url>http://localhost:8085/manager/text</url> 
 <server>apache-tomcat</server> 
-    <username>admin</username>
-    <password>admin</password>
-      <path>/petclinic</path>
+<username>admin</username>
+<password>admin</password>
+<path>/my-webapp</path> 
 </configuration> 
 </plugin>
                     <plugin>
